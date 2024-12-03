@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+    border: solid rgb(36, 255, 0);
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(200, 220, 255);
+}
+
+#oferta {
+    background-color: #a4beb1;
+}
+
+.producto {
+    background-color: #6cc2cb;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section {
+    background-color: #4682B4;
+    width: 90%;
+    max-width: 1400px;
+    height: 466px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: white;
+    font-family: "kanit";
+    text-align: left;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+    color: white;
+    font-family: "kanit";
+    text-align: center;
+}
+
+div img {
+    width: 550px;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#izquierda {
+    padding: 20px;
+    flex: 1;
+}
+
+#derecha {
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
